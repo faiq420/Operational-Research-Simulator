@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55) !important;
+}
+.progressbar {
+    display: inline-block;
+    width: 100px;
+    margin: 25px;
+}
+.circle {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.circle canvas {
+    vertical-align: middle;
+}
+.circle div {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+div#form{
+    
+  top: 10%;
+  left: 150;
+  width: 800px;
+  padding: 40px;
+  /* transform: translate(-50%, -50%); */
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+label {
+    color: aliceblue;
+}
+
+#report, #report2{
+    background-color: #243b55;
+}
